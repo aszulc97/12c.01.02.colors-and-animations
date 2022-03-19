@@ -142,11 +142,16 @@ header button {
 
 .header_graphics {
   width: 30vw;
-  height: 30vw;
+  height: 50vw;
   min-width: 300px;
   min-height: 300px;
   border-radius: 300px;
   background-color: var(--darker-blue);
+  overflow: hidden;
+}
+
+.header_graphics img {
+  width: 200%;
 }
 
 /* product section */
@@ -182,6 +187,11 @@ header button {
   margin: 3rem;
   background-color: var(--dark-sand);
   border-radius: 300px;
+  overflow: hidden;
+}
+
+.product_graphics img {
+  width: 100%;
 }
 
 /* highlight sections */
